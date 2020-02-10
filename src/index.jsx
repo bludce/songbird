@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.sass'
+import Header from './components/header/header'
+
 
 function App() {
   return (
-    <div className="red-text">Hello Ann</div>
+    <Fragment>
+      <Header/>
+      
+    </Fragment>
   );
 }
 
